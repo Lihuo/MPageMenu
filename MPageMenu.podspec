@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MPageMenu'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MPageMenu.'
+  s.summary          = 'This is PageMenu for segment'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Lihour/MPageMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MPageMenu/Classes/**/*'
+  #s.source_files = 'MPageMenu/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'MPageMenu' => ['MPageMenu/Assets/*.png']
