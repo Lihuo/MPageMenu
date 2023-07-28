@@ -16,6 +16,7 @@
 		FC2A38572A73762900794DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2A38552A73762900794DEE /* Main.storyboard */; };
 		FC2A38592A73762B00794DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2A38582A73762B00794DEE /* Assets.xcassets */; };
 		FC2A385C2A73762B00794DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2A385A2A73762B00794DEE /* LaunchScreen.storyboard */; };
+		FC2A38622A73772B00794DEE /* MPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A38612A73772B00794DEE /* MPageMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		FC2A38582A73762B00794DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2A385B2A73762B00794DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2A385D2A73762B00794DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2A38612A73772B00794DEE /* MPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPageMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				FC2A38342A73756600794DEE /* MPageMenu.h */,
+				FC2A38612A73772B00794DEE /* MPageMenu.swift */,
 			);
 			path = MPageMenu;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					FC2A38302A73756600794DEE = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					FC2A38382A73756600794DEE = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2A38622A73772B00794DEE /* MPageMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 		FC2A38442A73756600794DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -455,6 +461,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +470,7 @@
 		FC2A38452A73756600794DEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -493,6 +501,7 @@
 		FC2A38472A73756600794DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,6 +517,7 @@
 		FC2A38482A73756600794DEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
