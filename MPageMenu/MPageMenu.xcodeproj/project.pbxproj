@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC2A37D02A73612A00794DEE /* MPageMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2A37C72A73612A00794DEE /* MPageMenu.framework */; };
-		FC2A37D52A73612A00794DEE /* MPageMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A37D42A73612A00794DEE /* MPageMenuTests.swift */; };
 		FC2A37D62A73612A00794DEE /* MPageMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2A37CA2A73612A00794DEE /* MPageMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC2A37E02A73616300794DEE /* MPageMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A37DF2A73616300794DEE /* MPageMenuViewController.swift */; };
 		FC2A37E82A73625100794DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A37E72A73625100794DEE /* AppDelegate.swift */; };
@@ -24,10 +22,12 @@
 		FC2A38042A73628700794DEE /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A37FD2A73628700794DEE /* CAPSPageMenuConfiguration.swift */; };
 		FC2A38052A73628700794DEE /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A37FE2A73628700794DEE /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
 		FC2A38062A73628700794DEE /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A37FF2A73628700794DEE /* CAPSPageMenu+Options.swift */; };
+		FC2A38102A736AB500794DEE /* MPageMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A380F2A736AB500794DEE /* MPageMenuTests.swift */; };
+		FC2A38112A736AB500794DEE /* MPageMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2A37C72A73612A00794DEE /* MPageMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC2A37D12A73612A00794DEE /* PBXContainerItemProxy */ = {
+		FC2A38122A736AB500794DEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FC2A37BE2A73612900794DEE /* Project object */;
 			proxyType = 1;
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		FC2A37C72A73612A00794DEE /* MPageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2A37CA2A73612A00794DEE /* MPageMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPageMenu.h; sourceTree = "<group>"; };
-		FC2A37CF2A73612A00794DEE /* MPageMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPageMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2A37D42A73612A00794DEE /* MPageMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPageMenuTests.swift; sourceTree = "<group>"; };
 		FC2A37DF2A73616300794DEE /* MPageMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPageMenuViewController.swift; sourceTree = "<group>"; };
 		FC2A37E52A73625100794DEE /* MPageMenuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPageMenuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +56,8 @@
 		FC2A37FD2A73628700794DEE /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
 		FC2A37FE2A73628700794DEE /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
 		FC2A37FF2A73628700794DEE /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		FC2A380D2A736AB500794DEE /* MPageMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPageMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2A380F2A736AB500794DEE /* MPageMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPageMenuTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,18 +68,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC2A37CC2A73612A00794DEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC2A37D02A73612A00794DEE /* MPageMenu.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FC2A37E22A73625100794DEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A380A2A736AB500794DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A38112A736AB500794DEE /* MPageMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +92,7 @@
 				FC2A37C92A73612A00794DEE /* MPageMenu */,
 				FC2A37D32A73612A00794DEE /* MPageMenuTests */,
 				FC2A37E62A73625100794DEE /* MPageMenuExample */,
+				FC2A380E2A736AB500794DEE /* MPageMenuTests */,
 				FC2A37C82A73612A00794DEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				FC2A37C72A73612A00794DEE /* MPageMenu.framework */,
-				FC2A37CF2A73612A00794DEE /* MPageMenuTests.xctest */,
 				FC2A37E52A73625100794DEE /* MPageMenuExample.app */,
+				FC2A380D2A736AB500794DEE /* MPageMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,7 +110,13 @@
 		FC2A37C92A73612A00794DEE /* MPageMenu */ = {
 			isa = PBXGroup;
 			children = (
-				FC2A38082A73629400794DEE /* Source */,
+				FC2A37FC2A73628700794DEE /* CAPSPageMenu.swift */,
+				FC2A37FF2A73628700794DEE /* CAPSPageMenu+Options.swift */,
+				FC2A37F92A73628700794DEE /* CAPSPageMenu+UIConfiguration.swift */,
+				FC2A37FA2A73628700794DEE /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				FC2A37FE2A73628700794DEE /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				FC2A37FD2A73628700794DEE /* CAPSPageMenuConfiguration.swift */,
+				FC2A37FB2A73628700794DEE /* MenuItemView.swift */,
 				FC2A37DF2A73616300794DEE /* MPageMenuViewController.swift */,
 				FC2A37CA2A73612A00794DEE /* MPageMenu.h */,
 			);
@@ -137,18 +145,12 @@
 			path = MPageMenuExample;
 			sourceTree = "<group>";
 		};
-		FC2A38082A73629400794DEE /* Source */ = {
+		FC2A380E2A736AB500794DEE /* MPageMenuTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC2A37FC2A73628700794DEE /* CAPSPageMenu.swift */,
-				FC2A37FF2A73628700794DEE /* CAPSPageMenu+Options.swift */,
-				FC2A37F92A73628700794DEE /* CAPSPageMenu+UIConfiguration.swift */,
-				FC2A37FA2A73628700794DEE /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
-				FC2A37FE2A73628700794DEE /* CAPSPageMenu+UIScrollViewDelegate.swift */,
-				FC2A37FD2A73628700794DEE /* CAPSPageMenuConfiguration.swift */,
-				FC2A37FB2A73628700794DEE /* MenuItemView.swift */,
+				FC2A380F2A736AB500794DEE /* MPageMenuTests.swift */,
 			);
-			path = Source;
+			path = MPageMenuTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,24 +185,6 @@
 			productReference = FC2A37C72A73612A00794DEE /* MPageMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FC2A37CE2A73612A00794DEE /* MPageMenuTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC2A37DC2A73612A00794DEE /* Build configuration list for PBXNativeTarget "MPageMenuTests" */;
-			buildPhases = (
-				FC2A37CB2A73612A00794DEE /* Sources */,
-				FC2A37CC2A73612A00794DEE /* Frameworks */,
-				FC2A37CD2A73612A00794DEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC2A37D22A73612A00794DEE /* PBXTargetDependency */,
-			);
-			name = MPageMenuTests;
-			productName = MPageMenuTests;
-			productReference = FC2A37CF2A73612A00794DEE /* MPageMenuTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		FC2A37E42A73625100794DEE /* MPageMenuExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC2A37F62A73625200794DEE /* Build configuration list for PBXNativeTarget "MPageMenuExample" */;
@@ -218,6 +202,24 @@
 			productReference = FC2A37E52A73625100794DEE /* MPageMenuExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FC2A380C2A736AB500794DEE /* MPageMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2A38142A736AB500794DEE /* Build configuration list for PBXNativeTarget "MPageMenuTests" */;
+			buildPhases = (
+				FC2A38092A736AB500794DEE /* Sources */,
+				FC2A380A2A736AB500794DEE /* Frameworks */,
+				FC2A380B2A736AB500794DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2A38132A736AB500794DEE /* PBXTargetDependency */,
+			);
+			name = MPageMenuTests;
+			productName = MPageMenuTests;
+			productReference = FC2A380D2A736AB500794DEE /* MPageMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,10 +234,10 @@
 						CreatedOnToolsVersion = 14.3.1;
 						LastSwiftMigration = 1430;
 					};
-					FC2A37CE2A73612A00794DEE = {
+					FC2A37E42A73625100794DEE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					FC2A37E42A73625100794DEE = {
+					FC2A380C2A736AB500794DEE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -254,21 +256,14 @@
 			projectRoot = "";
 			targets = (
 				FC2A37C62A73612A00794DEE /* MPageMenu */,
-				FC2A37CE2A73612A00794DEE /* MPageMenuTests */,
 				FC2A37E42A73625100794DEE /* MPageMenuExample */,
+				FC2A380C2A736AB500794DEE /* MPageMenuTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FC2A37C52A73612A00794DEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2A37CD2A73612A00794DEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,6 +277,13 @@
 				FC2A37F42A73625200794DEE /* LaunchScreen.storyboard in Resources */,
 				FC2A37F12A73625200794DEE /* Assets.xcassets in Resources */,
 				FC2A37EF2A73625100794DEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A380B2A736AB500794DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +305,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC2A37CB2A73612A00794DEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC2A37D52A73612A00794DEE /* MPageMenuTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FC2A37E12A73625100794DEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,13 +315,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC2A38092A736AB500794DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A38102A736AB500794DEE /* MPageMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC2A37D22A73612A00794DEE /* PBXTargetDependency */ = {
+		FC2A38132A736AB500794DEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FC2A37C62A73612A00794DEE /* MPageMenu */;
-			targetProxy = FC2A37D12A73612A00794DEE /* PBXContainerItemProxy */;
+			targetProxy = FC2A38122A736AB500794DEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,40 +538,6 @@
 			};
 			name = Release;
 		};
-		FC2A37DD2A73612A00794DEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myproduct.MPageMenuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FC2A37DE2A73612A00794DEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myproduct.MPageMenuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		FC2A37F72A73625200794DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -626,6 +594,44 @@
 			};
 			name = Release;
 		};
+		FC2A38152A736AB500794DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 629G98X38N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myproduct.MPageMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC2A38162A736AB500794DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 629G98X38N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myproduct.MPageMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -647,20 +653,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC2A37DC2A73612A00794DEE /* Build configuration list for PBXNativeTarget "MPageMenuTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC2A37DD2A73612A00794DEE /* Debug */,
-				FC2A37DE2A73612A00794DEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FC2A37F62A73625200794DEE /* Build configuration list for PBXNativeTarget "MPageMenuExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC2A37F72A73625200794DEE /* Debug */,
 				FC2A37F82A73625200794DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2A38142A736AB500794DEE /* Build configuration list for PBXNativeTarget "MPageMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2A38152A736AB500794DEE /* Debug */,
+				FC2A38162A736AB500794DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
